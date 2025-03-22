@@ -1,0 +1,32 @@
+﻿  VideoDisplay.cpp
+..\VideoDisplay.cpp(265): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+..\VideoDisplay.cpp(269): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+  irimagerShow.cpp
+c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\pif_config/IRPifConfig.h(48): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\pif_config/IRPifConfig.h(53): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\pif_config/IRPifConfig.h(58): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\pif_config/IRPifConfig.h(63): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+..\irimagerShow.cpp(214): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+          c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\IRArray.h(113) : see reference to function template instantiation '_OutIt std::copy<const T*,T*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=Tchar *
+  ,            T=Tchar
+  ,            _InIt=const Tchar *
+          ]
+          c:\users\dimitrioskasderidis\desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irdirectsdk\sdk\IRArray.h(108) : while compiling class template member function 'evo::IRArray<Tchar>::IRArray(size_t,const T *const )'
+          with
+          [
+              T=Tchar
+          ]
+          C:\Users\DimitriosKasderidis\Desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irDirectSDK\sdk\IRCalibrationManager.h(38) : see reference to function template instantiation 'evo::IRArray<Tchar>::IRArray(size_t,const T *const )' being compiled
+          with
+          [
+              T=Tchar
+          ]
+          C:\Users\DimitriosKasderidis\Desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irDirectSDK\sdk\IRCalibrationManager.h(43) : see reference to class template instantiation 'evo::IRArray<Tchar>' being compiled
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+  Generating Code...
+  vs13_irimagerShow.vcxproj -> C:\Users\DimitriosKasderidis\Desktop\neue_sdk_version\irdirectsdk_release\platform\windows\irDirectSDK\examples\directshow\vs_project\\..\Debug\x64\vs13_irimagerShow.exe
